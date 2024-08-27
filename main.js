@@ -1,6 +1,4 @@
 
-
-
 function getComputerChoice() {
   let computerOptions = ["rock", "paper", "scissors"];
   let randomNumbers = Math.floor(Math.random() * computerOptions.length);
@@ -13,5 +11,11 @@ function getComputerChoice() {
     console.log("scissors");
   }
 }
-    
-getComputerChoice()
+
+
+    // this function gets users input by prompting them with a text//
+function getHumanChoice() {
+   let userChoice = prompt("Rock, Paper, or Scissors?");
+}
+
+  console.log(getHumanChoice());``
