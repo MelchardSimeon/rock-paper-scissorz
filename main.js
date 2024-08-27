@@ -12,7 +12,6 @@ function getComputerChoice() {
   }
 }
 
-
     // this function gets users input by prompting them with a text//
 function getHumanChoice() {
    let userChoice = prompt("Rock, Paper, or Scissors?");
@@ -24,3 +23,10 @@ function getHumanChoice() {
 let humanScore = 0;
 let computerScore = 0;
 
+    // add function to initialize game
+
+function playRound(humanChoice, computerChoice) {
+    let humanChoice = humanChoice.toLowerCase() && humanChoice.toUpperCase;
+    let computerChoice = getComputerChoice();
+    let humanChoice = getHumanChoice();
+}
