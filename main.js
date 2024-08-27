@@ -1,4 +1,4 @@
-
+  // this function randomly returns rock, paper, scissors
 function getComputerChoice() {
   let computerOptions = ["rock", "paper", "scissors"];
   let randomNumbers = Math.floor(Math.random() * computerOptions.length);
@@ -18,4 +18,9 @@ function getHumanChoice() {
    let userChoice = prompt("Rock, Paper, or Scissors?");
 }
 
-  console.log(getHumanChoice());``
+  console.log(getHumanChoice());
+
+    // variables to keep track of the score
+let humanScore = 0;
+let computerScore = 0;
+
